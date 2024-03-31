@@ -11,7 +11,6 @@ public class ArrayTest4 {
             System.out.printf("%s-%s\n", address[i], names[i]);
          }
       }
-
    }
 
    public static void main(String[] args) {
