@@ -1,4 +1,4 @@
-package clazz;
+package chapter06_oop;
 
 public class MethodTest {
     public int sum(int a, int b){

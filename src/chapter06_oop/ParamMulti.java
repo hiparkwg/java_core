@@ -1,4 +1,4 @@
-package clazz;
+package chapter06_oop;
 
 public class ParamMulti {
     public void paramSum(int... x){

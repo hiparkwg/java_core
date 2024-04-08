@@ -1,7 +1,7 @@
 //-------------------------------
 // interface를 구현한 클래스 작성
 //-------------------------------
-package oop1;
+package chapter06_oop;
 
 public class InterfaceExam implements MyInter1{
 

@@ -1,4 +1,4 @@
-package clazz;
+package chapter06_oop;
 
 public class StaticMethodTest {
    static double max(double x, double y){

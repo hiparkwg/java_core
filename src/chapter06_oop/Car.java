@@ -1,4 +1,4 @@
-package clazz;
+package chapter06_oop;
 
 public class Car {
     String color; // 색상

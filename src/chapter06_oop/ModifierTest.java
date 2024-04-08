@@ -1,4 +1,4 @@
-package clazz;
+package chapter06_oop;
 
 public class ModifierTest {
     // 아무나 접근할 수 있는 메소드

@@ -2,7 +2,7 @@
  * 오버라이드 테스트
  */
 
-package oop1;
+package chapter06_oop;
 
 import javax.print.PrintException;
 

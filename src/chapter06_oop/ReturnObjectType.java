@@ -1,4 +1,4 @@
-package clazz;
+package chapter06_oop;
 
 public class ReturnObjectType {
    public Data getData(String id, String name){

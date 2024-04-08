@@ -4,7 +4,7 @@
 
 package array;
 
-import clazz.ModifierTest;
+import chapter06_oop.ModifierTest;
 
 public class ModifierAccessTester extends ModifierTest {
 
