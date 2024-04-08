@@ -1,4 +1,4 @@
-package chapter10_exception;
+package chapter08_exception;
 
 // =========================================================
 // ArrayIndexOutOfBoundsException

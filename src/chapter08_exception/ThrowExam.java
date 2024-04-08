@@ -1,4 +1,4 @@
-package chapter10_exception;
+package chapter08_exception;
 
 public class ThrowExam {
 
@@ -16,8 +16,5 @@ public class ThrowExam {
 	public static void main(String[] args) {
 		ThrowExam t = new ThrowExam();
 		t.test();
-		
-
 	}
-
 }

@@ -1,5 +1,4 @@
-package chapter10_exception;
-
+package chapter08_exception;
 
 class ThrowsExceptionEx{
 	int div(int a) throws ArithmeticException {
@@ -20,5 +19,4 @@ class ThrowsExceptionEx{
 		ThrowsExceptionEx ag = new ThrowsExceptionEx();
 		ag.call();
 	}
-
 }
