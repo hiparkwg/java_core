@@ -1,4 +1,7 @@
+/* 객체형 필드를 갖고 있는 클래스의 깊은 복사 */
 package chapter12_lang;
+
+import java.util.Arrays;
 
 class MyClone implements Cloneable{
 	String irum;
@@ -12,6 +15,8 @@ class MyClone implements Cloneable{
 		MyClone obj = null;
 		try{
 			obj = (MyClone)clone();
+			obj.data = data.clone();
+
 		}catch(Exception ex){
 			ex.printStackTrace();
 		}
@@ -26,11 +31,9 @@ public class CloneTest {
 		
 		d.data[0] = "aaaa";
 		d.irum = "park";
-		System.out.println(c.data[0]);
-		System.out.println(c.irum);
+		System.out.println(Arrays.toString(c.data));
 
-		System.out.println(d.data[0]);
-		System.out.println(d.irum);
+		System.out.println(Arrays.toString(d.data));
 	}
 
 }
