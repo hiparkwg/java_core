@@ -14,3 +14,4 @@ public class StringReverse {
       System.out.println(str.substring(0,1));
    }
 }
+
